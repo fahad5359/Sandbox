@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        body{
+            padding: 90px;
+            margin: auto;
+            text-align: center;
+        }
+         @media(max-width: 1000px){
+            body{
+                background-color: rgb(255, 225, 0);
+            }
+            #wide{
+                background-color: chocolate;
+            }
+            
+        }
+        @media(max-width: 800px){
+            body{
+                background-color: rgb(255, 0, 98);
+            }
+            #ipad{
+                background-color: chocolate;
+            }
+            
+        }
+        @media(max-width: 400px){
+            body{
+                background-color: blue;
+            }
+            #smart{
+                background-color: chocolate;
+            }
+
+        }
+        @media(max-width: 200px){
+            body{
+                background-color: rgb(0, 255, 136);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="wide">
+        <h1>wide</h1>
+    </div>
+    <div id="ipad">
+        <h1>ipad</h1>
+    </div>
+    <div id="smart">
+        <h1>smartphone</h1>
+    </div>
+    
+</body>
+</html>

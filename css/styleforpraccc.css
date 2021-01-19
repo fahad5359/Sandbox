@@ -1,0 +1,187 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mega-container{
+    margin: auto;
+    max-width: 1800px;
+    background:  #EDF6F9
+
+}
+h2{
+    width: 13px;
+}
+.curnt{
+    background-color: rgb(181, 136, 105);
+}
+body{
+    max-width: 2000px;
+    
+    
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+input{
+    padding: 10px;
+    float: right;
+    
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+   
+    text-decoration: none;
+    
+}
+
+
+li:hover{
+    background-color: #924529;
+    
+}
+.bc{
+    font-size: 40px;
+    background-color: #E29578;
+}
+
+/* header */
+#box1{
+    padding: 15px;
+}
+#co1 {
+    padding: 2.3rem;
+    background-color: #006D77;
+
+}
+
+#co1 ul {
+    float: right;
+}
+
+#co1 li {
+    padding: 5px;
+    float: left;
+    position: relative;
+    bottom: 50px;
+}
+/* box2 */
+#box2{
+    padding: 120px;
+}
+#co2{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    width: 50%
+}
+#co3{
+    margin: auto;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+/* box3 */
+#box3{
+    padding: 200px 50px;
+    margin: auto;
+    text-align: center;
+}
+#box3 img{
+    width: 30%;
+}
+#box4{
+    padding: 20px 50px;
+}
+#box4 p{
+    margin: auto;
+}
+/* about */
+  #bo1{
+      padding: 3rem 0rem
+  }
+  #cnt1{
+      width: 30%;
+      float: left;
+      display: inline;
+  }
+  #cnt2{
+      padding: 0px 200px;
+    width: 30%;
+      display: inline;
+     
+  }
+  #cnt3{
+    display: inline;
+    width: 30%;
+      float: right;
+  }
+  
+  #bo2{
+      height: 1000px;
+      background-image: url("/pics/maddy-PN84GXLlmjE-unsplash.jpg");
+      
+  }
+  #bo2cnt1{
+      display: block;
+      margin: auto;
+      text-align: center;
+      padding: 300px;
+      color: #000000;
+  
+  }
+  /* info */
+  #pic-box{
+      margin: auto;
+      
+  }
+  #pic-container{
+      background-image: url("/pics/byshark-F-rvSJl6qI0-unsplash.jpg");
+      text-align: center;
+      padding: 200px;
+  }
+  .flt-l{
+    float: left;
+    background-color: #E29578;
+
+  }
+  #pic1 {
+      padding: 90px 0px;
+  }
+  #pic2{padding: 90px 0px;}
+  
+  
+  .spon-s{
+      padding: 100px;
+      position: sticky;
+      background-color: #E29578;
+      top: 50px;
+      width: 20%;
+     
+     
+  
+  }
+  #spon1{
+      border: 3px solid black;
+    float: right;
+  }
+  #spon2{
+    border: 3px solid black;
+      float: left;
+  }
+/* footer */
+footer p{
+    text-align: center;
+    background-color:  #064a50;
+    height: 2rem;
+    color: aliceblue;
+}

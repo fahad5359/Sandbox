@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+#search{
+    padding: 20px 20px;
+    width: 100px;
+}
+
+/* header */
+header{
+    background-color: rgb(47, 62, 70); 
+}
+#og{
+    margin: auto;
+    height: 100px;
+  
+}
+
+#nav-area{
+  margin: auto;
+    max-width: 1500px;
+   
+}
+#navbar h1{
+    
+    color: rgb(226, 109, 92);
+    text-align: center;
+
+}
+
+#navbar ul{
+    
+padding: 10px;
+    float: right;
+}
+#navbar li{
+    display: inline-block;
+    float: right;
+    padding: 20px;
+    color: whitesmoke;
+    
+}
+
+#min-area{
+    background: url(/pics/maddy-PN84GXLlmjE-unsplash.jpg) center center/cover;
+    background-color: rgb(107, 107, 116);
+    
+    height: 900px;
+    display: block;
+    margin: auto;
+    
+}
+#m-content{
+    display: inline-block;
+    margin: auto;
+}
+#m-content h1{
+    color: wheat;
+    text-align: center;
+    font-size: 80px;
+}
+#m-content p{
+    color: wheat;
+    font-size: 40px;
+}
+
+#se1{
+    height: 500px;
+}
+
+#s1{
+    background-color: tomato;
+    float: right;
+    width: 50%;
+    max-height: 400px;
+}
+#img{
+  
+    float: left;
+    width: 50%;
+   background: url(/pics/byshark-F-rvSJl6qI0-unsplash.jpg)
+    no-repeat center/cover;
+    min-height: 400px;
+  
+    
+}

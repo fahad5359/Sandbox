@@ -1,0 +1,119 @@
+
+
+
+/* gineral */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+ul li{
+    list-style: none;
+    
+}
+
+/* header */
+
+#nav-box{
+    position: sticky;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+}
+#nav-bar{
+    
+    max-width: 1400px;
+}
+
+#nav-bar h1{
+    padding-left: 200px;
+    
+float: left;
+}
+#nav-bar ul{text-align: center;
+    float: right;
+    display: block;
+}
+#nav-bar li{
+    float: left;
+    padding: 20px;
+}
+#nav-bar li:hover{
+    background-color: rgb(42, 82, 112);
+}
+#nav-bar h1{
+    padding-top: 10px;
+}
+
+/* main */
+#p-box{
+background-image: url(/pics/aleksey-kuprikov-SOWIuWK2Ekw-unsplash.jpg);
+background-size: 1990px ;
+    background-position: center;
+background-repeat: no-repeat;
+
+
+    padding: 200px;
+    padding-bottom: 900px;
+    text-align: center;
+    margin: auto;
+    line-height: 20px;
+    margin-bottom: 200px;
+    
+}
+#btn{
+   width: 100px;
+   background-color: rgb(0, 0, 0);
+   display: inline-block;
+   margin: auto;
+   border-radius: 40px;
+    
+}
+#btn:hover{
+    background-color:  rgb(42, 82, 112);
+    
+}
+#para h1{
+    padding-bottom: 130px;
+    color: rgba(153, 6, 6, 0.768);
+    font-size: 70px;   
+}
+#para p{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#BEST{
+    color: rgb(42, 82, 112);
+}
+
+
+
+
+#low-box{
+    padding: 10px 1000px;
+    display: inline;
+
+}
+#mini-box1{
+    width: 50%;
+    background-image: url(/pics/aleksey-kuprikov-SOWIuWK2Ekw-unsplash.jpg);
+    overflow: auto;
+    background-color: brown
+    ;float: right;
+}
+
+#mini-box2{
+    width: 50%;
+    background-color: brown;
+}
